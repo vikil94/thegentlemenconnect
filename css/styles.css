@@ -15,9 +15,10 @@ body {
 }
 
 
-.site-nav-list{
+.site-nav-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border-style: 
 }
 
 .chef-logo {
