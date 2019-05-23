@@ -17,6 +17,13 @@ body {
 .site-nav-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: silver;
+    list-style: none;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    margin: auto; 
+
 }
 
 .chef-logo {
@@ -40,7 +47,8 @@ body {
 .event-section {
     border-style: solid;
     border-width: 5px;
-    border-color: white; 
+    border-color: white;
+    background-color: red; 
 }
 
 .event-header {
