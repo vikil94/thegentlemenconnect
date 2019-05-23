@@ -1,0 +1,31 @@
+
+
+body {
+    background-color: black;
+}
+
+.site-header {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.site-logo {
+    width: 100%;
+}
+
+
+.site-nav-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.chef-logo {
+    width: 50%;
+    height: auto;
+}
+
+.barber-logo {
+    width: 50%;
+    height: auto  
+}
