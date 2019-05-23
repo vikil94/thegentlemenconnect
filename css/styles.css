@@ -60,3 +60,19 @@ body {
     color: white;
     padding-bottom: 10% 
 }
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+}
+
+.barber-photo {
+    width: 50%;
+    margin-left: 15%; 
+}
+
+.chef-photo {
+    margin-left: 10%;
+    width: 50%;
+}
