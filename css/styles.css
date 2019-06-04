@@ -18,6 +18,11 @@ body {
 .site-logo {
     width: 100%;
 }
+/* Hover For Vertical Nav */
+
+.main-nav-a:hover {
+    color: red;
+}
 
 .first-nav-div {
     position: fixed;
@@ -32,16 +37,18 @@ body {
     -webkit-transition: opacity .3s ease;
     transition: opacity .3s ease;
     opacity: 1;
-    background-color: grey;
+    background-color: #242424;
 }
 
 .main-nav {
     margin: 10px;
     list-style: none;
+    text-align: center;
+    margin-right: 65px;
 }
 
 .main-nav-list {
-    margin-top: 35%;
+    margin-top: 50%;
 }
 
 
