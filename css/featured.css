@@ -1,0 +1,22 @@
+body {
+    background-color: black; 
+}
+
+.featured-title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.featured-image-section {
+    max-width: 2000px;
+    position: relative;
+}
+
+.featured-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    
+}

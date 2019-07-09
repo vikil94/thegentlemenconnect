@@ -15,12 +15,16 @@
         <div class="first-nav-div">
             <nav class="firstnav">
                 <ul class="main-nav-list">
-                    <li class="main-nav"><a class="main-nav-a" href="who">| Who We Are |</a></li>
-                    <li class="main-nav"><a class="main-nav-a" href="What">What We Do |</a></li>
-                    <li class="main-nav"><a class="main-nav-a" href="featured">Featured Gentlemen Of The Month |</a></li>
+                    <li class="main-nav"><a class="main-nav-a" href="#who">| Who We Are |</a></li>
+                    <li class="main-nav"><a class="main-nav-a" href="#what">What We Do |</a></li>
+                    <li class="main-nav"><a class="main-nav-a" href="featuredpage.html">Featured Gentlemen Of The Month |</a></li>
                 </ul>
+                <button class="navbar-toggle">
+                    <span></span>
+                </button>
             </nav>
         </div>
+
         <div class="site-header">
             <div class="mySlides fade">
                 <img class="site-logo" src="images/Website pictures 2/TGCrevised-105.jpg" alt="GGlogo">
@@ -36,7 +40,6 @@
                 </div>
             </div>
 
-
             <div class="mySlides fade">
                 <img class="site-logo" src="images/Website pictures 2/TGCrevised-114.jpg" alt="GC-Header">
                 <div class="site-header-text">
@@ -45,21 +48,28 @@
             </div>
         </div>
 
-        <nav class="site-nav">
-            <ul class="site-nav-list">
-                <li class="barber">
-                    <a href="barberpage.html">
-                        <img class="barber-logo" src="images/barber.png" alt="barber-logo">
-                    </a>
-                </li>
-                <li class="chef">
-                    <a href="chefpage.html">
-                        <img class="chef-logo" src="images/chefhat-1.png" alt="chef-logo">
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        
+        <div id="who">
+            <h4 class="who-title">Who We Are</h4>
+            <nav class="site-nav">
+                <ul class="site-nav-list">
+                    <li class="barber">
+                        <a class="barber-a" href="barberpage.html">
+                            <img class="barber-logo" src="images/barber.jpg" alt="barber-logo">
+                        </a>
+                    </li>
+                    <li class="chef">
+                        <a href="chefpage.html">
+                            <img class="chef-logo" src="images/chefhat.jpg" alt="chef-logo">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="what">
+            <h4 class="what-title">What We Do</h4>
+            <p class="what-para">We do something</p>
+        </div>
 
 
         <script src="main.js"></script>
