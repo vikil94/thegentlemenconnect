@@ -4,19 +4,14 @@ body {
     background-color: black;
 }
 
-h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
-}
-
 .main-nav-a {
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: white;
 }
 
 .site-header {
-    max-width: 1000px;
+    max-width: 2000px;
     position: relative;
     margin: auto;
 }
@@ -37,8 +32,17 @@ h4 {
     color: #FFFFFF;
     text-transform: uppercase;
     width: 100%;
-    position: static
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
+
 
 /* Fading animation */
 .fade {
@@ -49,21 +53,23 @@ h4 {
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .2} 
     to {opacity: 1}
 }
 
 @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .2} 
     to {opacity: 1}
 }
+
+/* fading done */
 
 .main-nav-a:hover {
     color: red;
 }
 
 .first-nav-div {
-
+    background-color: 
 }
 
 .main-nav {
@@ -75,17 +81,15 @@ h4 {
     list-style-type: none;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 
 .site-nav-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: silver;
+    background-color: #eee;
     list-style: none;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
     margin: auto; 
 
 }
