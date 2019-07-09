@@ -86,6 +86,10 @@ button {
     
 }
 
+.main-nav-feature {
+    display: inline;
+}
+
 
 .site-nav-list {
     display: grid;
