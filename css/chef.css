@@ -1,21 +1,21 @@
 body {
-    background-color: black;
+    background-color: black; 
 }
 
-.barber-title {
+.chef-title {
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;  
 }
 
-.barber-section {
+.chef-section {
     max-width: 2000px;
     position: relative;
 }
 
-.barber-image {
+.chef-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 80%;
 }
