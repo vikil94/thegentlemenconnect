@@ -154,9 +154,10 @@ body {
 }
 
 .dropbtn {
-    background-color: #4CAF50;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
     color: white;
-    padding: 16px;
+    padding: 0;
     font-size: 16px;
     border: none;
 }
@@ -189,4 +190,4 @@ body {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {color: red;}
