@@ -19,3 +19,19 @@ body {
     margin-right: auto;
     width: 80%;
 }
+
+.chef-para-div { 
+    border: solid 5px white;
+    margin-top: 20px;
+}
+
+.chef-para {
+    color: white;
+    text-align: center;
+    margin: 30px 30px;
+}
+
+.chef {
+    color: white;
+    text-align: center;
+}
