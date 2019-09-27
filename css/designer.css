@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+.designer-title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.designer-section {
+    max-width: 2000px;
+    position: relative;
+}
+
+.designer-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.designer-para-div {
+    border: solid 5px white;
+    margin-top: 20px;
+}
+
+.designer-para {
+    color: white;
+    text-align: center;
+    margin: 30px 30px;
+}
+
+.designer {
+    color: white;
+    text-align: center;
+}
